@@ -2,41 +2,64 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Hotel Menu App Design System - Pastel Colors & Doodle Theme */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Pastel Background Palette */
+    --background: 42 100% 97%; /* cream */
+    --foreground: 25 25% 25%; /* soft charcoal */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    /* Card System */
+    --card: 0 0% 100%; /* pure white */
+    --card-foreground: 25 25% 25%;
 
+    /* Popover */
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 25 25% 25%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary - Soft Peach */
+    --primary: 15 85% 75%; /* soft peach */
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary - Mint Green */
+    --secondary: 150 40% 85%; /* soft mint */
+    --secondary-foreground: 25 25% 25%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted - Lavender */
+    --muted: 260 30% 90%; /* soft lavender */
+    --muted-foreground: 25 25% 55%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent - Blush Pink */
+    --accent: 340 50% 85%; /* blush pink */
+    --accent-foreground: 25 25% 25%;
 
+    /* Destructive stays for errors */
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Borders & Inputs */
+    --border: 42 30% 88%; /* soft cream border */
+    --input: 42 30% 92%;
+    --ring: 15 85% 75%; /* peach ring */
 
-    --radius: 0.5rem;
+    /* Custom Hotel Menu Colors */
+    --menu-breakfast: 45 90% 80%; /* sunny yellow */
+    --menu-lunch: 120 40% 80%; /* fresh green */
+    --menu-dinner: 25 60% 75%; /* warm orange */
+    --menu-dessert: 300 45% 85%; /* sweet purple */
+    --menu-drinks: 200 60% 80%; /* cool blue */
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(15 85% 75%), hsl(340 50% 85%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(42 30% 96%));
+    
+    /* Shadows */
+    --shadow-soft: 0 4px 20px hsl(15 85% 75% / 0.15);
+    --shadow-hover: 0 8px 30px hsl(15 85% 75% / 0.25);
+    
+    /* Border radius for doodle feel */
+    --radius: 1rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -101,5 +124,20 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Hide scrollbar for menu navigation */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
   }
 }
