@@ -31,12 +31,12 @@ const HotelMenuHeader = () => {
 
         {/* Title */}
         <h1 className={`font-doodle text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 transition-all duration-1000 delay-300 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
-          Explore Our Hotel Menu
+          Street Food Paradise
         </h1>
 
         {/* Subtitle */}
         <p className={`font-doodle text-lg md:text-xl lg:text-2xl text-muted-foreground mb-12 transition-all duration-1000 delay-500 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
-          Deliciously prepared, delivered with love
+          Authentic flavors, street-side fresh!
         </p>
 
         {/* Scroll indicator */}

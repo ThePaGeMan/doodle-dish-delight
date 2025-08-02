@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import HotelMenuHeader from '@/components/HotelMenuHeader';
+import StreetFoodHeader from '@/components/StreetFoodHeader';
 import MenuNavigation from '@/components/MenuNavigation';
 import MenuSection from '@/components/MenuSection';
 import OrderButton from '@/components/OrderButton';
@@ -51,7 +51,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background font-doodle">
       {/* Header */}
-      <HotelMenuHeader />
+      <StreetFoodHeader />
 
       {/* Navigation */}
       <MenuNavigation 

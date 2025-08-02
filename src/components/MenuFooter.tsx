@@ -16,7 +16,7 @@ const MenuFooter = () => {
         <div className="text-center max-w-4xl mx-auto">
           {/* Hotel Name */}
           <h3 className="font-doodle text-3xl md:text-4xl font-bold text-foreground mb-8">
-            Grand Doodle Hotel
+            Wang's Street Food Stall
           </h3>
 
           {/* Contact Grid */}
@@ -28,9 +28,9 @@ const MenuFooter = () => {
               </div>
               <h4 className="font-doodle font-semibold text-foreground">Location</h4>
               <p className="font-doodle text-sm text-muted-foreground">
-                123 Culinary Street<br />
-                Foodie District<br />
-                Taste City, TC 12345
+                456 Food Street<br />
+                Chinatown District<br />
+                City Center, CC 54321
               </p>
             </div>
 
@@ -41,9 +41,9 @@ const MenuFooter = () => {
               </div>
               <h4 className="font-doodle font-semibold text-foreground">Phone</h4>
               <p className="font-doodle text-sm text-muted-foreground">
-                Room Service: Ext. 1234<br />
-                Reception: +1 (555) 123-4567<br />
-                Restaurant: +1 (555) 123-4568
+                Orders: +1 (555) 234-5678<br />
+                WhatsApp: +1 (555) 234-5679<br />
+                Delivery: +1 (555) 234-5680
               </p>
             </div>
 
@@ -54,9 +54,9 @@ const MenuFooter = () => {
               </div>
               <h4 className="font-doodle font-semibold text-foreground">Email</h4>
               <p className="font-doodle text-sm text-muted-foreground">
-                dining@granddoodle.com<br />
-                info@granddoodle.com<br />
-                events@granddoodle.com
+                orders@wangsfood.com<br />
+                info@wangsfood.com<br />
+                delivery@wangsfood.com
               </p>
             </div>
 
@@ -67,28 +67,24 @@ const MenuFooter = () => {
               </div>
               <h4 className="font-doodle font-semibold text-foreground">Follow Us</h4>
               <p className="font-doodle text-sm text-muted-foreground">
-                @granddoodlehotel<br />
-                @doodledining<br />
-                #DoodleDelicious
+                @wangsstreetfood<br />
+                @authenticchinese<br />
+                #StreetFoodLife
               </p>
             </div>
           </div>
 
           {/* Hours */}
           <div className="bg-card/20 rounded-3xl p-6 mb-8 backdrop-blur-sm">
-            <h4 className="font-doodle font-semibold text-lg text-foreground mb-4">Restaurant Hours</h4>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
+            <h4 className="font-doodle font-semibold text-lg text-foreground mb-4">Operating Hours</h4>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
               <div>
-                <p className="font-doodle font-medium text-foreground">Breakfast</p>
-                <p className="font-doodle text-muted-foreground">6:00 AM - 11:00 AM</p>
+                <p className="font-doodle font-medium text-foreground">Monday - Friday</p>
+                <p className="font-doodle text-muted-foreground">11:00 AM - 9:00 PM</p>
               </div>
               <div>
-                <p className="font-doodle font-medium text-foreground">Lunch & Dinner</p>
-                <p className="font-doodle text-muted-foreground">12:00 PM - 10:00 PM</p>
-              </div>
-              <div>
-                <p className="font-doodle font-medium text-foreground">Room Service</p>
-                <p className="font-doodle text-muted-foreground">24/7 Available</p>
+                <p className="font-doodle font-medium text-foreground">Saturday - Sunday</p>
+                <p className="font-doodle text-muted-foreground">10:00 AM - 10:00 PM</p>
               </div>
             </div>
           </div>
@@ -96,7 +92,7 @@ const MenuFooter = () => {
           {/* Copyright */}
           <div className="border-t border-border/20 pt-6">
             <p className="font-doodle text-sm text-muted-foreground">
-              © 2024 Grand Doodle Hotel. Made with ❤️ for food lovers everywhere.
+              © 2024 Wang's Street Food Stall. Made with ❤️ for street food lovers everywhere.
             </p>
           </div>
         </div>
