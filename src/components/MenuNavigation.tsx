@@ -10,11 +10,9 @@ const MenuNavigation = ({ activeSection, onNavigate }: MenuNavigationProps) => {
   const [isSticky, setIsSticky] = useState(false);
 
   const menuCategories = [
-    { id: 'breakfast', name: 'Breakfast', icon: Coffee, color: 'menu-breakfast' },
     { id: 'lunch', name: 'Lunch', icon: Utensils, color: 'menu-lunch' },
     { id: 'dinner', name: 'Dinner', icon: Moon, color: 'menu-dinner' },
-    { id: 'desserts', name: 'Desserts', icon: IceCream, color: 'menu-dessert' },
-    { id: 'drinks', name: 'Drinks', icon: Wine, color: 'menu-drinks' },
+    { id: 'soup', name: 'Soup', icon: Coffee, color: 'menu-soup' },
   ];
 
   useEffect(() => {

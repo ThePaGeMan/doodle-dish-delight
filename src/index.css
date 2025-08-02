@@ -44,11 +44,9 @@
     --ring: 15 85% 75%; /* peach ring */
 
     /* Custom Hotel Menu Colors */
-    --menu-breakfast: 45 90% 80%; /* sunny yellow */
     --menu-lunch: 120 40% 80%; /* fresh green */
     --menu-dinner: 25 60% 75%; /* warm orange */
-    --menu-dessert: 300 45% 85%; /* sweet purple */
-    --menu-drinks: 200 60% 80%; /* cool blue */
+    --menu-soup: 45 100% 85%; /* warm golden */
 
     /* Gradients */
     --gradient-hero: linear-gradient(135deg, hsl(15 85% 75%), hsl(340 50% 85%));

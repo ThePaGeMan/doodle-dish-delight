@@ -7,7 +7,7 @@ import MenuFooter from '@/components/MenuFooter';
 import { menuData } from '@/data/menuData';
 
 const Index = () => {
-  const [activeSection, setActiveSection] = useState('breakfast');
+  const [activeSection, setActiveSection] = useState('lunch');
 
   // Intersection Observer to track active section
   useEffect(() => {
@@ -26,7 +26,7 @@ const Index = () => {
     }, observerOptions);
 
     // Observe all menu sections
-    const sections = ['breakfast', 'lunch', 'dinner', 'desserts', 'drinks'];
+    const sections = ['lunch', 'dinner', 'soup'];
     sections.forEach((sectionId) => {
       const element = document.getElementById(sectionId);
       if (element) {
@@ -61,43 +61,27 @@ const Index = () => {
 
       {/* Menu Sections */}
       <MenuSection
-        id="breakfast"
-        title="Breakfast"
-        emoji="🌅"
-        items={menuData.breakfast}
-        bgColor="menu-breakfast"
-      />
-
-      <MenuSection
         id="lunch"
-        title="Lunch"
-        emoji="🥗"
+        title="Fast Food & Chinese"
+        emoji="🥡"
         items={menuData.lunch}
         bgColor="menu-lunch"
       />
 
       <MenuSection
         id="dinner"
-        title="Dinner"
-        emoji="🌙"
+        title="Dinner Specials"
+        emoji="🍜"
         items={menuData.dinner}
         bgColor="menu-dinner"
       />
 
       <MenuSection
-        id="desserts"
-        title="Desserts"
-        emoji="🍰"
-        items={menuData.desserts}
-        bgColor="menu-dessert"
-      />
-
-      <MenuSection
-        id="drinks"
-        title="Drinks"
-        emoji="🍹"
-        items={menuData.drinks}
-        bgColor="menu-drinks"
+        id="soup"
+        title="Soups"
+        emoji="🍲"
+        items={menuData.soup}
+        bgColor="menu-soup"
       />
 
       {/* Footer */}

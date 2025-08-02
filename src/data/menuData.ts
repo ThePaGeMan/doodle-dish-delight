@@ -1,207 +1,122 @@
 export const menuData = {
-  breakfast: [
-    {
-      name: "Fluffy Pancakes",
-      description: "Stack of three fluffy pancakes with maple syrup, fresh berries, and whipped cream",
-      price: "$12",
-      tags: ["Sweet", "Popular"],
-      isChefsPick: true
-    },
-    {
-      name: "Avocado Toast Supreme",
-      description: "Sourdough toast topped with smashed avocado, poached egg, cherry tomatoes, and microgreens",
-      price: "$14",
-      tags: ["Healthy", "Instagram-worthy"],
-      isVegan: true
-    },
-    {
-      name: "Classic Eggs Benedict",
-      description: "Toasted English muffin with Canadian bacon, poached eggs, and house-made hollandaise sauce",
-      price: "$16",
-      tags: ["Classic", "Indulgent"]
-    },
-    {
-      name: "Fresh Fruit Bowl",
-      description: "Seasonal fresh fruits with Greek yogurt, granola, and local honey drizzle",
-      price: "$10",
-      tags: ["Healthy", "Light"],
-      isVegan: true
-    },
-    {
-      name: "Continental Breakfast",
-      description: "Assorted pastries, fresh fruit, yogurt, coffee, and orange juice",
-      price: "$18",
-      tags: ["Complete", "Traditional"]
-    },
-    {
-      name: "Green Smoothie Bowl",
-      description: "Spinach, banana, mango smoothie topped with chia seeds, coconut flakes, and granola",
-      price: "$11",
-      tags: ["Superfood", "Energizing"],
-      isVegan: true
-    }
-  ],
   lunch: [
     {
-      name: "Truffle Mushroom Risotto",
-      description: "Creamy arborio rice with wild mushrooms, truffle oil, parmesan, and fresh herbs",
-      price: "$24",
-      tags: ["Gourmet", "Vegetarian"],
+      name: "General Tso's Chicken",
+      description: "Crispy chicken chunks in sweet and tangy sauce with steamed rice",
+      price: "$12",
+      tags: ["Popular", "Sweet & Sour"],
       isChefsPick: true
     },
     {
-      name: "Grilled Salmon Salad",
-      description: "Atlantic salmon on mixed greens with quinoa, cherry tomatoes, and lemon vinaigrette",
-      price: "$22",
-      tags: ["Healthy", "Protein-rich"]
+      name: "Beef Lo Mein",
+      description: "Stir-fried noodles with tender beef, vegetables in savory sauce",
+      price: "$11",
+      tags: ["Noodles", "Beef"]
     },
     {
-      name: "Artisan Burger",
-      description: "House-made beef patty with aged cheddar, caramelized onions, and truffle fries",
-      price: "$19",
-      tags: ["Comfort Food", "Popular"]
+      name: "Kung Pao Chicken",
+      description: "Diced chicken with peanuts, vegetables and chili peppers",
+      price: "$10",
+      tags: ["Spicy", "Nuts"]
     },
     {
-      name: "Mediterranean Bowl",
-      description: "Quinoa, hummus, roasted vegetables, olives, feta cheese, and tahini dressing",
-      price: "$16",
-      tags: ["Healthy", "Mediterranean"],
-      isVegan: true
+      name: "Sweet & Sour Pork",
+      description: "Crispy pork with bell peppers, pineapple in tangy sauce",
+      price: "$11",
+      tags: ["Sweet & Sour", "Pork"]
     },
     {
-      name: "Caesar Wrap",
-      description: "Grilled chicken, romaine lettuce, parmesan, and caesar dressing in a spinach wrap",
-      price: "$14",
-      tags: ["Light", "Portable"]
+      name: "Chicken Fried Rice",
+      description: "Wok-fried rice with chicken, eggs, peas and carrots",
+      price: "$9",
+      tags: ["Rice", "Classic"]
     },
     {
-      name: "Lobster Roll",
-      description: "Fresh lobster meat with lemon mayo on a toasted brioche roll, served with chips",
-      price: "$28",
-      tags: ["Seafood", "Premium"],
+      name: "Orange Chicken",
+      description: "Battered chicken in citrus glaze with steamed broccoli",
+      price: "$12",
+      tags: ["Citrus", "Popular"],
       isChefsPick: true
     }
   ],
   dinner: [
     {
-      name: "Wagyu Beef Tenderloin",
-      description: "Premium wagyu with roasted vegetables, truffle mashed potatoes, and red wine jus",
-      price: "$65",
-      tags: ["Premium", "Signature"],
+      name: "Peking Duck",
+      description: "Traditional roasted duck with pancakes, cucumber and hoisin sauce",
+      price: "$25",
+      tags: ["Premium", "Traditional"],
       isChefsPick: true
     },
     {
-      name: "Pan-Seared Duck Breast",
-      description: "Crispy duck breast with cherry gastrique, wild rice, and seasonal vegetables",
-      price: "$38",
-      tags: ["Gourmet", "Seasonal"]
-    },
-    {
-      name: "Seafood Paella",
-      description: "Traditional Spanish paella with prawns, mussels, calamari, and saffron rice",
-      price: "$32",
-      tags: ["Spanish", "Sharing"]
-    },
-    {
-      name: "Lamb Rack Provençal",
-      description: "Herb-crusted rack of lamb with ratatouille and rosemary jus",
-      price: "$42",
-      tags: ["French", "Elegant"]
-    },
-    {
-      name: "Vegetarian Tasting Menu",
-      description: "Chef's selection of five seasonal vegetarian courses with wine pairings",
-      price: "$55",
-      tags: ["Tasting", "Seasonal"],
-      isVegan: true,
-      isChefsPick: true
-    },
-    {
-      name: "Blackened Mahi-Mahi",
-      description: "Cajun-spiced mahi-mahi with coconut rice, plantains, and mango salsa",
-      price: "$26",
-      tags: ["Tropical", "Spiced"]
-    }
-  ],
-  desserts: [
-    {
-      name: "Chocolate Lava Cake",
-      description: "Warm chocolate cake with molten center, vanilla ice cream, and raspberry coulis",
-      price: "$12",
-      tags: ["Chocolate", "Warm"],
-      isChefsPick: true
-    },
-    {
-      name: "Crème Brûlée Trio",
-      description: "Classic vanilla, lavender honey, and espresso crème brûlée with caramelized sugar",
-      price: "$14",
-      tags: ["Classic", "French"]
-    },
-    {
-      name: "Tiramisu",
-      description: "Traditional Italian tiramisu with mascarpone, coffee, and cocoa dust",
-      price: "$10",
-      tags: ["Italian", "Coffee"]
-    },
-    {
-      name: "Seasonal Fruit Tart",
-      description: "Pastry shell with vanilla custard and fresh seasonal fruits",
-      price: "$11",
-      tags: ["Fresh", "Seasonal"]
-    },
-    {
-      name: "Gelato Selection",
-      description: "Three scoops of house-made gelato: pistachio, salted caramel, and berry sorbet",
-      price: "$9",
-      tags: ["Frozen", "Light"],
-      isVegan: true
-    },
-    {
-      name: "Cheese Board",
-      description: "Selection of artisan cheeses with fig jam, nuts, and artisan crackers",
-      price: "$18",
-      tags: ["Savory", "Sharing"]
-    }
-  ],
-  drinks: [
-    {
-      name: "Signature Hotel Cocktail",
-      description: "House special with premium gin, elderflower, cucumber, and fresh lime",
+      name: "Mongolian Beef",
+      description: "Tender beef with onions and scallions in savory sauce",
       price: "$16",
-      tags: ["Signature", "Refreshing"],
+      tags: ["Beef", "Savory"]
+    },
+    {
+      name: "Honey Walnut Shrimp",
+      description: "Crispy shrimp with candied walnuts and creamy sauce",
+      price: "$18",
+      tags: ["Seafood", "Sweet"]
+    },
+    {
+      name: "Mapo Tofu",
+      description: "Silky tofu in spicy Sichuan sauce with ground pork",
+      price: "$14",
+      tags: ["Spicy", "Tofu"],
+      isVegan: true
+    },
+    {
+      name: "Szechuan Fish",
+      description: "Fresh fish fillet in spicy Szechuan peppercorn sauce",
+      price: "$20",
+      tags: ["Spicy", "Fish"]
+    },
+    {
+      name: "Char Siu Pork",
+      description: "BBQ pork with steamed rice and Asian vegetables",
+      price: "$15",
+      tags: ["BBQ", "Traditional"]
+    }
+  ],
+  soup: [
+    {
+      name: "Hot & Sour Soup",
+      description: "Traditional soup with tofu, mushrooms, and bamboo shoots",
+      price: "$6",
+      tags: ["Spicy", "Traditional"],
       isChefsPick: true
     },
     {
-      name: "Wine Selection",
-      description: "Curated selection of local and international wines by the glass or bottle",
-      price: "$8-45",
-      tags: ["Wine", "Varied"]
-    },
-    {
-      name: "Craft Beer Flight",
-      description: "Selection of four local craft beers in tasting portions",
-      price: "$18",
-      tags: ["Beer", "Local"]
-    },
-    {
-      name: "Fresh Juice Blend",
-      description: "Daily selection of cold-pressed juices with seasonal fruits and vegetables",
+      name: "Wonton Soup",
+      description: "Pork and shrimp wontons in clear chicken broth",
       price: "$8",
-      tags: ["Healthy", "Fresh"],
-      isVegan: true
+      tags: ["Comfort", "Dumplings"]
     },
     {
-      name: "Artisan Coffee",
-      description: "Single-origin coffee roasted in-house, available as espresso, drip, or specialty drinks",
-      price: "$4-7",
-      tags: ["Coffee", "Local"]
-    },
-    {
-      name: "Herbal Tea Collection",
-      description: "Premium loose-leaf teas including chamomile, peppermint, and exotic blends",
+      name: "Egg Drop Soup",
+      description: "Silky egg ribbons in seasoned chicken broth",
       price: "$5",
-      tags: ["Tea", "Calming"],
-      isVegan: true
+      tags: ["Light", "Classic"]
+    },
+    {
+      name: "Seafood Corn Soup",
+      description: "Creamy soup with crab meat, shrimp and sweet corn",
+      price: "$9",
+      tags: ["Seafood", "Creamy"]
+    },
+    {
+      name: "Winter Melon Soup",
+      description: "Clear soup with winter melon, ham and dried scallops",
+      price: "$7",
+      tags: ["Light", "Traditional"]
+    },
+    {
+      name: "Tom Yum Soup",
+      description: "Spicy Thai soup with shrimp, mushrooms and lemongrass",
+      price: "$8",
+      tags: ["Spicy", "Thai"],
+      isChefsPick: true
     }
   ]
 };
