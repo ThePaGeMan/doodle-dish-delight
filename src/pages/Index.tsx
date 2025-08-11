@@ -7,7 +7,7 @@ import MenuFooter from '@/components/MenuFooter';
 import { menuData } from '@/data/menuData';
 
 const Index = () => {
-  const [activeSection, setActiveSection] = useState('starter');
+  const [activeSection, setActiveSection] = useState('wagon_special');
 
   // Intersection Observer to track active section
   useEffect(() => {
