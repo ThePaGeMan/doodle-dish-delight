@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import chefDoodle from '@/assets/chef-doodle.png';
+import chefDoodle from '@/assets/the_food_wagon-removebg-preview.png';
 import decorationDoodles from '@/assets/decoration-doodles.png';
 
 const HotelMenuHeader = () => {
@@ -26,17 +26,18 @@ const HotelMenuHeader = () => {
       <div className="text-center px-6 max-w-4xl mx-auto">
         {/* Chef doodle */}
         <div className={`mb-8 flex justify-center transition-all duration-1000 ${isVisible ? 'scale-100 opacity-100' : 'scale-75 opacity-0'}`}>
-          <img src={chefDoodle} alt="Friendly chef" className="w-32 h-32 md:w-40 md:h-40" />
+          <img src={chefDoodle} alt="Friendly chef" className="w-36 h-36 md:w-[250px] md:h-[250px]" />
         </div>
 
         {/* Title */}
         <h1 className={`font-doodle text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 transition-all duration-1000 delay-300 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
-          Street Food Paradise
+          The Food Wagon
         </h1>
 
         {/* Subtitle */}
         <p className={`font-doodle text-lg md:text-xl lg:text-2xl text-muted-foreground mb-12 transition-all duration-1000 delay-500 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
-          Authentic flavors, street-side fresh!
+          {/* Rolling With Flavours. */}
+          Rolling With Flavors ! <br />ESTD: 2025
         </p>
 
         {/* Scroll indicator */}

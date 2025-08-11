@@ -68,7 +68,9 @@ export default {
 					lunch: 'hsl(var(--menu-lunch))', 
 					dinner: 'hsl(var(--menu-dinner))',
 					dessert: 'hsl(var(--menu-dessert))',
-					drinks: 'hsl(var(--menu-drinks))'
+					drinks: 'hsl(var(--menu-drinks))',
+					our_recommendations: 'hsl(var(--menu-our-recommendations))',
+					wagon_special: 'hsl(var(--menu-wagon-special))',
 				}
 			},
 			backgroundImage: {

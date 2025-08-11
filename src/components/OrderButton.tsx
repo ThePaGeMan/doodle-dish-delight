@@ -50,7 +50,7 @@ const OrderButton = () => {
               }}
             >
               <Phone size={20} className="mr-3" />
-              Call Room Service
+              Call 
             </Button>
             
             {/* WhatsApp Order */}

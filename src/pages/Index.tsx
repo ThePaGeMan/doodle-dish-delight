@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import StreetFoodHeader from '@/components/StreetFoodHeader';
 import MenuNavigation from '@/components/MenuNavigation';
 import MenuSection from '@/components/MenuSection';
-import OrderButton from '@/components/OrderButton';
+// import OrderButton from '@/components/OrderButton';
 import MenuFooter from '@/components/MenuFooter';
 import { menuData } from '@/data/menuData';
 
@@ -26,7 +26,7 @@ const Index = () => {
     }, observerOptions);
 
     // Observe all menu sections
-    const sections = ['starter', 'roll', 'noodles', 'soup'];
+    const sections = ['wagon_special','starter','fried_rice', 'roll', 'noodles', 'soup'];
     sections.forEach((sectionId) => {
       const element = document.getElementById(sectionId);
       if (element) {
@@ -61,10 +61,34 @@ const Index = () => {
 
       {/* Menu Sections */}
       <MenuSection
+        id='our_recommendations'
+        title='Our Recommendations👍'
+        emoji='🥇'
+        items={menuData.our_recommendations}
+        bgColor='menu-our-recommendations'
+      />
+
+      <MenuSection
+        id="wagon_special"
+        title="Wagon's Special"
+        emoji="💫"
+        items={menuData.wagon_special}
+        bgColor="menu-wagon-special"
+      />
+
+      <MenuSection
         id="starter"
         title="Starters"
         emoji="🍤"
         items={menuData.starter}
+        bgColor="menu-lunch"
+      />
+
+      <MenuSection
+        id='fried_rice'
+        title='Fried Rice'
+        emoji='🍚'
+        items={menuData.fried_rice}
         bgColor="menu-lunch"
       />
 
@@ -95,8 +119,8 @@ const Index = () => {
       {/* Footer */}
       <MenuFooter />
 
-      {/* Floating Order Button */}
-      <OrderButton />
+      {/* Floating Order Button
+      <OrderButton /> */}
     </div>
   );
 };

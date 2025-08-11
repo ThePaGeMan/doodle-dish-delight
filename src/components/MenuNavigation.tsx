@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Coffee, Utensils, Moon, IceCream, Wine } from 'lucide-react';
+import { Coffee, Utensils, Moon, IceCream, Star, Soup, CookingPot, UtensilsCrossed } from 'lucide-react';
 
 interface MenuNavigationProps {
   activeSection: string;
@@ -10,10 +10,12 @@ const MenuNavigation = ({ activeSection, onNavigate }: MenuNavigationProps) => {
   const [isSticky, setIsSticky] = useState(false);
 
   const menuCategories = [
+    { id: 'wagon_special', name: `Wagon's Special`, icon: Star, color: 'menu-wagon-special' },
     { id: 'starter', name: 'Starters', icon: Utensils, color: 'menu-lunch' },
-    { id: 'roll', name: 'Rolls', icon: Coffee, color: 'menu-dinner' },
-    { id: 'noodles', name: 'Noodles', icon: Moon, color: 'menu-lunch' },
-    { id: 'soup', name: 'Soup', icon: IceCream, color: 'menu-soup' },
+    { id: 'fried_rice', name: 'Fried Rice', icon: CookingPot, color: 'menu-lunch' },
+    { id: 'roll', name: 'Rolls', icon: Utensils, color: 'menu-dinner' },
+    { id: 'noodles', name: 'Noodles', icon: UtensilsCrossed, color: 'menu-lunch' },
+    { id: 'soup', name: 'Soup', icon: Soup, color: 'menu-soup' },
   ];
 
   useEffect(() => {

@@ -16,7 +16,7 @@ const MenuFooter = () => {
         <div className="text-center max-w-4xl mx-auto">
           {/* Hotel Name */}
           <h3 className="font-doodle text-3xl md:text-4xl font-bold text-foreground mb-8">
-            Wang's Street Food Stall
+            The Food Wagon Street
           </h3>
 
           {/* Contact Grid */}
@@ -28,9 +28,9 @@ const MenuFooter = () => {
               </div>
               <h4 className="font-doodle font-semibold text-foreground">Location</h4>
               <p className="font-doodle text-sm text-muted-foreground">
-                456 Food Street<br />
-                Chinatown District<br />
-                City Center, CC 54321
+                Food Court, Patia<br />
+                Bhubaneswar<br />
+                Odisha, CC 751024
               </p>
             </div>
 
@@ -41,9 +41,10 @@ const MenuFooter = () => {
               </div>
               <h4 className="font-doodle font-semibold text-foreground">Phone</h4>
               <p className="font-doodle text-sm text-muted-foreground">
-                Orders: +1 (555) 234-5678<br />
-                WhatsApp: +1 (555) 234-5679<br />
-                Delivery: +1 (555) 234-5680
+                Orders: +91 7681853408 <br />+91 9777887442<br /> 
+                <a href="https://wa.me/+919777887442" target="_blank" rel="noopener noreferrer" className="font-doodle text-sm text-muted-foreground cursor-pointer hover:text-foreground">
+                  WhatsApp: +91 9777887442
+                </a>
               </p>
             </div>
 
@@ -54,9 +55,7 @@ const MenuFooter = () => {
               </div>
               <h4 className="font-doodle font-semibold text-foreground">Email</h4>
               <p className="font-doodle text-sm text-muted-foreground">
-                orders@wangsfood.com<br />
-                info@wangsfood.com<br />
-                delivery@wangsfood.com
+                <a href='mailto:tfoodwagon@gmail.com' className="font-doodle text-sm text-muted-foreground cursor-pointer hover:text-foreground">tfoodwagon@gmail.com</a>
               </p>
             </div>
 
@@ -67,9 +66,7 @@ const MenuFooter = () => {
               </div>
               <h4 className="font-doodle font-semibold text-foreground">Follow Us</h4>
               <p className="font-doodle text-sm text-muted-foreground">
-                @wangsstreetfood<br />
-                @authenticchinese<br />
-                #StreetFoodLife
+                <a href='https://www.instagram.com/the.food_wagon?igsh=Zjk3emkwMmFtOGh3' target='_blank' rel='noopener noreferrer' className="font-doodle text-sm text-muted-foreground cursor-pointer hover:text-foreground">@the.food_wagon</a><br />
               </p>
             </div>
           </div>
@@ -80,11 +77,11 @@ const MenuFooter = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
               <div>
                 <p className="font-doodle font-medium text-foreground">Monday - Friday</p>
-                <p className="font-doodle text-muted-foreground">11:00 AM - 9:00 PM</p>
+                <p className="font-doodle text-muted-foreground">12:30 PM - 10:00 PM</p>
               </div>
               <div>
                 <p className="font-doodle font-medium text-foreground">Saturday - Sunday</p>
-                <p className="font-doodle text-muted-foreground">10:00 AM - 10:00 PM</p>
+                <p className="font-doodle text-muted-foreground">12:30 PM - 10:30 PM</p>
               </div>
             </div>
           </div>
@@ -92,7 +89,7 @@ const MenuFooter = () => {
           {/* Copyright */}
           <div className="border-t border-border/20 pt-6">
             <p className="font-doodle text-sm text-muted-foreground">
-              © 2024 Wang's Street Food Stall. Made with ❤️ for street food lovers everywhere.
+              © 2025 The Food Wagon Stall. Made with ❤️ for street food lovers everywhere.
             </p>
           </div>
         </div>
