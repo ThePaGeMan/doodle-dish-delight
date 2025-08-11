@@ -21,21 +21,12 @@ const MenuCard = ({ name, description, price, image, tags, isChefsPick, isVegan 
         </div>
       )}
 
-      {/* Menu Item Image/Doodle */}
-      <div className="relative mb-4 h-32 bg-muted/30 rounded-2xl flex items-center justify-center overflow-hidden">
-        {image ? (
-          <img src={image} alt={name} className="w-full h-full object-cover" />
-        ) : (
-          <div className="text-4xl opacity-50">🍽️</div>
-        )}
-        
-        {/* Vegan indicator */}
-        {isVegan && (
-          <div className="absolute top-2 left-2 bg-secondary p-1.5 rounded-full">
-            <Leaf size={12} className="text-secondary-foreground" />
-          </div>
-        )}
-      </div>
+      {/* Vegan indicator */}
+      {isVegan && (
+        <div className="absolute top-2 left-2 bg-secondary p-1.5 rounded-full">
+          <Leaf size={12} className="text-secondary-foreground" />
+        </div>
+      )}
 
       {/* Content */}
       <div className="space-y-3">

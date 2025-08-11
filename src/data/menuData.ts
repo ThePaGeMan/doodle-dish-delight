@@ -1,122 +1,235 @@
 export const menuData = {
-  lunch: [
+  starter: [
     {
-      name: "General Tso's Chicken",
-      description: "Crispy chicken chunks in sweet and tangy sauce with steamed rice",
-      price: "$12",
-      tags: ["Popular", "Sweet & Sour"],
+      name: "Manchurian",
+      description: "Crispy vegetable balls in tangy Manchurian sauce",
+      price: "₹150",
+      tags: ["Veg", "Popular"],
       isChefsPick: true
     },
     {
-      name: "Beef Lo Mein",
-      description: "Stir-fried noodles with tender beef, vegetables in savory sauce",
-      price: "$11",
-      tags: ["Noodles", "Beef"]
+      name: "Paneer Chilli",
+      description: "Spicy paneer cubes with bell peppers and onions",
+      price: "₹90",
+      tags: ["Veg", "Spicy"]
     },
     {
-      name: "Kung Pao Chicken",
-      description: "Diced chicken with peanuts, vegetables and chili peppers",
-      price: "$10",
-      tags: ["Spicy", "Nuts"]
+      name: "Veg Manchurian 65",
+      description: "Deep-fried vegetable balls with special 65 spices",
+      price: "₹150",
+      tags: ["Veg", "Spicy"]
     },
     {
-      name: "Sweet & Sour Pork",
-      description: "Crispy pork with bell peppers, pineapple in tangy sauce",
-      price: "$11",
-      tags: ["Sweet & Sour", "Pork"]
+      name: "Paneer 65",
+      description: "Crispy paneer with South Indian spices",
+      price: "₹160",
+      tags: ["Veg", "Spicy"]
     },
     {
-      name: "Chicken Fried Rice",
-      description: "Wok-fried rice with chicken, eggs, peas and carrots",
-      price: "$9",
-      tags: ["Rice", "Classic"]
+      name: "Garlic Paneer",
+      description: "Paneer cubes tossed in aromatic garlic sauce",
+      price: "₹170",
+      tags: ["Veg", "Garlic"]
     },
     {
-      name: "Orange Chicken",
-      description: "Battered chicken in citrus glaze with steamed broccoli",
-      price: "$12",
-      tags: ["Citrus", "Popular"],
+      name: "Paneer 555",
+      description: "Special recipe paneer with unique 555 sauce",
+      price: "₹200",
+      tags: ["Veg", "Special"],
+      isChefsPick: true
+    },
+    {
+      name: "Dragon Paneer",
+      description: "Fiery paneer preparation with dragon sauce",
+      price: "₹210",
+      tags: ["Veg", "Spicy"]
+    },
+    {
+      name: "Paneer Mongolian",
+      description: "Mongolian style paneer with vegetables",
+      price: "₹150",
+      tags: ["Veg", "Asian"]
+    },
+    {
+      name: "Chilli Chicken",
+      description: "Spicy chicken pieces with bell peppers and onions",
+      price: "₹160",
+      tags: ["Non-Veg", "Spicy"],
+      isChefsPick: true
+    },
+    {
+      name: "Chicken Manchurian",
+      description: "Juicy chicken balls in tangy Manchurian sauce",
+      price: "₹160",
+      tags: ["Non-Veg", "Popular"]
+    },
+    {
+      name: "Chicken 65",
+      description: "Classic South Indian spicy fried chicken",
+      price: "₹180",
+      tags: ["Non-Veg", "Spicy"]
+    },
+    {
+      name: "Chicken Mongolian",
+      description: "Mongolian style chicken with vegetables",
+      price: "₹220",
+      tags: ["Non-Veg", "Asian"]
+    },
+    {
+      name: "Chicken Lollipop",
+      description: "Drumette chicken wings in special coating",
+      price: "₹220",
+      tags: ["Non-Veg", "Popular"],
       isChefsPick: true
     }
   ],
-  dinner: [
+  roll: [
     {
-      name: "Peking Duck",
-      description: "Traditional roasted duck with pancakes, cucumber and hoisin sauce",
-      price: "$25",
-      tags: ["Premium", "Traditional"],
+      name: "Veg Roll",
+      description: "Fresh vegetables wrapped in soft roti",
+      price: "₹40",
+      tags: ["Veg", "Light"]
+    },
+    {
+      name: "Manchurian Roll",
+      description: "Crispy Manchurian balls wrapped in roti",
+      price: "₹60",
+      tags: ["Veg", "Popular"]
+    },
+    {
+      name: "Paneer Roll",
+      description: "Spiced paneer cubes wrapped in soft roti",
+      price: "₹60",
+      tags: ["Veg", "Protein"]
+    },
+    {
+      name: "Egg Roll",
+      description: "Scrambled eggs with spices wrapped in roti",
+      price: "₹50",
+      tags: ["Egg", "Classic"]
+    },
+    {
+      name: "Double Egg Roll",
+      description: "Extra portion of scrambled eggs in roti",
+      price: "₹60",
+      tags: ["Egg", "Protein"]
+    },
+    {
+      name: "Chicken Roll",
+      description: "Tender chicken pieces wrapped in soft roti",
+      price: "₹70",
+      tags: ["Non-Veg", "Popular"],
       isChefsPick: true
     },
     {
-      name: "Mongolian Beef",
-      description: "Tender beef with onions and scallions in savory sauce",
-      price: "$16",
-      tags: ["Beef", "Savory"]
+      name: "Double Egg Chicken Roll",
+      description: "Chicken and double egg combination roll",
+      price: "₹80",
+      tags: ["Non-Veg", "Hearty"]
     },
     {
-      name: "Honey Walnut Shrimp",
-      description: "Crispy shrimp with candied walnuts and creamy sauce",
-      price: "$18",
-      tags: ["Seafood", "Sweet"]
+      name: "Chilli Chicken Roll",
+      description: "Spicy chilli chicken wrapped in roti",
+      price: "₹80",
+      tags: ["Non-Veg", "Spicy"]
+    }
+  ],
+  noodles: [
+    {
+      name: "Veg Noodles",
+      description: "Stir-fried noodles with fresh vegetables",
+      price: "₹70",
+      tags: ["Veg", "Classic"]
     },
     {
-      name: "Mapo Tofu",
-      description: "Silky tofu in spicy Sichuan sauce with ground pork",
-      price: "$14",
-      tags: ["Spicy", "Tofu"],
-      isVegan: true
+      name: "Manchurian Noodles",
+      description: "Noodles topped with Manchurian balls",
+      price: "₹80",
+      tags: ["Veg", "Combo"]
     },
     {
-      name: "Szechuan Fish",
-      description: "Fresh fish fillet in spicy Szechuan peppercorn sauce",
-      price: "$20",
-      tags: ["Spicy", "Fish"]
+      name: "Paneer Noodles",
+      description: "Noodles with spiced paneer cubes",
+      price: "₹90",
+      tags: ["Veg", "Protein"]
     },
     {
-      name: "Char Siu Pork",
-      description: "BBQ pork with steamed rice and Asian vegetables",
-      price: "$15",
-      tags: ["BBQ", "Traditional"]
+      name: "Mix-Veg Noodles",
+      description: "Noodles with assorted mixed vegetables",
+      price: "₹90",
+      tags: ["Veg", "Healthy"]
+    },
+    {
+      name: "Veg Schezwan Noodles",
+      description: "Spicy Schezwan sauce noodles with vegetables",
+      price: "₹90",
+      tags: ["Veg", "Spicy"],
+      isChefsPick: true
+    },
+    {
+      name: "Egg Noodles",
+      description: "Noodles with scrambled eggs and vegetables",
+      price: "₹80",
+      tags: ["Egg", "Popular"]
+    },
+    {
+      name: "Chicken Noodles",
+      description: "Noodles with tender chicken pieces",
+      price: "₹90",
+      tags: ["Non-Veg", "Popular"],
+      isChefsPick: true
+    },
+    {
+      name: "Double Egg Chicken Noodles",
+      description: "Noodles with chicken and double portion of eggs",
+      price: "₹100",
+      tags: ["Non-Veg", "Hearty"]
+    },
+    {
+      name: "Schezwan Chicken Noodles",
+      description: "Spicy Schezwan chicken noodles",
+      price: "₹100",
+      tags: ["Non-Veg", "Spicy"]
     }
   ],
   soup: [
     {
-      name: "Hot & Sour Soup",
-      description: "Traditional soup with tofu, mushrooms, and bamboo shoots",
-      price: "$6",
-      tags: ["Spicy", "Traditional"],
+      name: "Veg Manchow Soup",
+      description: "Spicy vegetable soup with crispy noodles",
+      price: "₹60",
+      tags: ["Veg", "Spicy"],
       isChefsPick: true
     },
     {
-      name: "Wonton Soup",
-      description: "Pork and shrimp wontons in clear chicken broth",
-      price: "$8",
-      tags: ["Comfort", "Dumplings"]
+      name: "Sweet Corn Soup",
+      description: "Creamy sweet corn soup with herbs",
+      price: "₹50",
+      tags: ["Veg", "Sweet"]
     },
     {
-      name: "Egg Drop Soup",
-      description: "Silky egg ribbons in seasoned chicken broth",
-      price: "$5",
-      tags: ["Light", "Classic"]
+      name: "Veg Clear Soup",
+      description: "Light clear soup with fresh vegetables",
+      price: "₹50",
+      tags: ["Veg", "Light"]
     },
     {
-      name: "Seafood Corn Soup",
-      description: "Creamy soup with crab meat, shrimp and sweet corn",
-      price: "$9",
-      tags: ["Seafood", "Creamy"]
+      name: "Chicken Clear Soup",
+      description: "Clear chicken broth with tender pieces",
+      price: "₹70",
+      tags: ["Non-Veg", "Light"]
     },
     {
-      name: "Winter Melon Soup",
-      description: "Clear soup with winter melon, ham and dried scallops",
-      price: "$7",
-      tags: ["Light", "Traditional"]
-    },
-    {
-      name: "Tom Yum Soup",
-      description: "Spicy Thai soup with shrimp, mushrooms and lemongrass",
-      price: "$8",
-      tags: ["Spicy", "Thai"],
+      name: "Chicken Manchow Soup",
+      description: "Spicy chicken soup with crispy noodles",
+      price: "₹70",
+      tags: ["Non-Veg", "Spicy"],
       isChefsPick: true
+    },
+    {
+      name: "Hot n Sour Soup",
+      description: "Tangy and spicy hot & sour soup",
+      price: "₹70",
+      tags: ["Spicy", "Tangy"]
     }
   ]
 };

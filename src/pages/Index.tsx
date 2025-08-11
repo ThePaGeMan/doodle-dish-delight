@@ -7,7 +7,7 @@ import MenuFooter from '@/components/MenuFooter';
 import { menuData } from '@/data/menuData';
 
 const Index = () => {
-  const [activeSection, setActiveSection] = useState('lunch');
+  const [activeSection, setActiveSection] = useState('starter');
 
   // Intersection Observer to track active section
   useEffect(() => {
@@ -26,7 +26,7 @@ const Index = () => {
     }, observerOptions);
 
     // Observe all menu sections
-    const sections = ['lunch', 'dinner', 'soup'];
+    const sections = ['starter', 'roll', 'noodles', 'soup'];
     sections.forEach((sectionId) => {
       const element = document.getElementById(sectionId);
       if (element) {
@@ -61,19 +61,27 @@ const Index = () => {
 
       {/* Menu Sections */}
       <MenuSection
-        id="lunch"
-        title="Fast Food & Chinese"
-        emoji="🥡"
-        items={menuData.lunch}
+        id="starter"
+        title="Starters"
+        emoji="🍤"
+        items={menuData.starter}
         bgColor="menu-lunch"
       />
 
       <MenuSection
-        id="dinner"
-        title="Dinner Specials"
-        emoji="🍜"
-        items={menuData.dinner}
+        id="roll"
+        title="Rolls"
+        emoji="🌯"
+        items={menuData.roll}
         bgColor="menu-dinner"
+      />
+
+      <MenuSection
+        id="noodles"
+        title="Noodles"
+        emoji="🍜"
+        items={menuData.noodles}
+        bgColor="menu-lunch"
       />
 
       <MenuSection
